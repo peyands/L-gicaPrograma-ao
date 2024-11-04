@@ -17,7 +17,7 @@ precos_ingredientes = {
 def calcular_total():
     total = 0.00
 
-    # Escolher tamanho da pizza
+  
     print("Escolha o tamanho da pizza:")
     print("(1) Pequena - R$20.00")
     print("(2) Média - R$30.00")
@@ -31,7 +31,7 @@ def calcular_total():
         print("Tamanho inválido.")
         return
 
-    # Escolher ingredientes adicionais
+   
     print("Escolha os ingredientes adicionais (separados por vírgula):")
     print(", ".join(precos_ingredientes.keys()))
     
@@ -43,8 +43,7 @@ def calcular_total():
         else:
             print(f"Ingrediente '{ingrediente}' não reconhecido. Ignorando.")
 
-    # Mostrar valor total do pedido
+   
     print(f"O valor total do seu pedido é: R${total:.2f}")
-
-if == "_main_":
-    calcular_total(print)
+if("_main_"):
+    print(calcular_total)
